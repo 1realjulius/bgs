@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+      @font-face{
+        font-family: 'DosisSemiBold';
+        src: url("/Fonts/Dosis-SemiBold.woff2") format("woff2");
+      }
+      @font-face{
+        font-family: 'DosisMedium';
+        src: url("/Fonts/Dosis-Medium.woff2") format("woff2");
+      }
+      @font-face{
+        font-family: 'DosisRegular';
+        src: url("/Fonts/Dosis-Regular.woff2") format("woff2");
+      }
+    }
