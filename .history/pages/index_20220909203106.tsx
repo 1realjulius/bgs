@@ -2,10 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-blue-50">
+    <div className="flex min-h-screen font-DosisRegular flex-col bg-blue-50">
       <Head>
         <title>BGS</title>
-        {/* <meta
+        <meta
           name="description"
           content="Website and Software Development Agency."
         />
@@ -18,10 +18,10 @@ const Home: NextPage = () => {
         <meta
           property="og:description"
           content="Website and Software Development Agency."
-        /> */}
+        />
         {/* <meta property="og:image" content="/Assets/newmemoji.svg"/> */}
         {/* <meta property="twitter:card" content="/Assets/Julius_Eghan.jpg"/> */}
-        {/* <meta property="twitter:url" content="https://www.webncos.com/" />
+        <meta property="twitter:url" content="https://www.webncos.com/" />
         <meta
           property="twitter:title"
           content="Webncos — Website and Software Development Agency."
@@ -29,9 +29,9 @@ const Home: NextPage = () => {
         <meta
           property="twitter:description"
           content="Website and Software Development Agency."
-        /> */}
+        />
         {/* <meta property="twitter:image" content="/Assets/Julius_Eghan.jpg"/> */}
-        {/* <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
           type="image/png"
           sizes="16x16"
           href="/favicon-16x16.png"
-        /> */}
+        />
         {/* <meta name="google-site-verification" content="0HesePHVymRqGiL70HUKPIq0Zsap0uUIb_Ci0DpImRY" /> */}
         <meta
           name="theme-color"
@@ -61,13 +61,8 @@ const Home: NextPage = () => {
           media="(prefers-color-scheme: dark)"
         />
       </Head>
-      <div className="relative  flex flex-row">
-        <div className="absolute left-40 h-40 w-40 bg-blue-200"></div>
-        <div className="absolute right-[10px] h-40 w-40 bg-green-200"></div>
-        <div className="absolute h-40 w-40 bg-red-200"></div>
-        <h1 className="absolute right-0 flex flex-row text-6xl">
-          The webnceo of the websites
-        </h1>
+      <div>
+        HElLLO
       </div>
     </div>
   );

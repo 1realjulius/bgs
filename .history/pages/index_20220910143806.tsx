@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-blue-50">
+    <div className="flex min-h-screen flex-col bg-blue-50 items-center justify-center">
       <Head>
         <title>BGS</title>
         {/* <meta
@@ -61,13 +61,13 @@ const Home: NextPage = () => {
           media="(prefers-color-scheme: dark)"
         />
       </Head>
-      <div className="relative  flex flex-row">
-        <div className="absolute left-40 h-40 w-40 bg-blue-200"></div>
-        <div className="absolute right-[10px] h-40 w-40 bg-green-200"></div>
-        <div className="absolute h-40 w-40 bg-red-200"></div>
-        <h1 className="absolute right-0 flex flex-row text-6xl">
-          The webnceo of the websites
-        </h1>
+      <div>
+        <h1 className="my-10">Bgs</h1>
+        <div className="flex flex-row relative">
+          <div className="absolute h-40 w-40 bg-blue-400"></div>
+          <div className="absolute h-40 w-40 bg-blue-400"></div>
+          <div className="absolute h-40 w-40 bg-blue-400"></div>
+        </div>
       </div>
     </div>
   );

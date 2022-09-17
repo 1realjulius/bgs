@@ -61,13 +61,8 @@ const Home: NextPage = () => {
           media="(prefers-color-scheme: dark)"
         />
       </Head>
-      <div className="relative  flex flex-row">
-        <div className="absolute left-40 h-40 w-40 bg-blue-200"></div>
-        <div className="absolute right-[10px] h-40 w-40 bg-green-200"></div>
-        <div className="absolute h-40 w-40 bg-red-200"></div>
-        <h1 className="absolute right-0 flex flex-row text-6xl">
-          The webnceo of the websites
-        </h1>
+      <div>
+        <h1 className="text-5xl">this i s the webnceo of the websites</h1>
       </div>
     </div>
   );
