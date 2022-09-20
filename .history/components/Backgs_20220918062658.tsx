@@ -1,0 +1,17 @@
+import React from "react";
+
+const Backgs = () => {
+  return (
+    <div className="absolute top-0 text-white">
+      <div>bgs</div>
+      <div className="relative">
+        <div className="absolute -top-20 h-40 w-40 rounded-full bg-blue-200 blur-xl filter"></div>
+        <div className="absolute top-20 h-40 w-40 rounded-full bg-yellow-200 blur-xl filter"></div>
+        <div className="absolute left-32 top-0 h-40 w-40 rounded-full bg-red-200 blur-xl filter"></div>
+        <div className="absolute top-0 right-8 h-40 w-40 animate-wiggle rounded-full bg-green-200 blur-xl filter"></div>
+      </div>
+    </div>
+  );
+};
+
+export default Backgs;
